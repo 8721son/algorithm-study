@@ -1,4 +1,4 @@
-package algorithm;
+package implement.bitmask;
 import java.util.Scanner;
 
 public class BJ1094 {

@@ -1,4 +1,5 @@
-package algorithm;
+package structure.hash;
+
 import java.util.*;
 
 public class BJ1302 {

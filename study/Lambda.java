@@ -1,6 +1,5 @@
-package test;
+package study;
 
-import java.security.PublicKey;
 import java.util.stream.IntStream;
 
 public class Lambda {
@@ -9,7 +8,8 @@ public class Lambda {
 
         // 인터페이스에는 하나만 정의할 수 있는데 구현은 하기 나름
 
-        // return 할땐 중괄호 , 타입은 써도되고 안써도되고
+        // return 할땐 중괄호
+        // type 쓰든 안쓰든
         Calc add = (int x,int y) -> {
             return x+y;
         };
@@ -21,11 +21,11 @@ public class Lambda {
         // System.out.println(add.min(10, 20));    
         // System.out.println(max.min(10, 20));
 
+
         IntStream.range(0, 100)
         .skip(10)
         .filter(i -> i%9==0)
         .forEach(i -> System.out.println(i));
-        
     }    
 
 }
